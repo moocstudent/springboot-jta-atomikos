@@ -16,20 +16,20 @@
 ```
 jta-atomikos
 +
-+--+ api
-|  +---+ aop
-|  +---+ config
-|  +---+ controller
-|  +---+ service
-|  +---+ util
++--+ api    接口模块
+|  +---+ aop               全局日志
+|  +---+ config            数据源配置
+|  +---+ controller        接口
+|  +---+ service           业务逻辑事物控制
+|  +---+ util              工具包
 |
-+--+ dao
-   +---+ mybatis
-   +---+ one
-   |   +---+ entity
-   |   +---+ mapper
-   |   +---+ repository
-   +---+ two
++--+ dao    持久层模块
+   +---+ mybatis           mybatis-generator 自定义工具     
+   +---+ one               db_one 数据源 
+   |   +---+ entity        db_one 数据源 实体
+   |   +---+ mapper        db_one 数据源 mapper 文件
+   |   +---+ repository    db_one 数据源 dao 
+   +---+ two               
        +---+ entity
        +---+ mapper
        +---+ repository
