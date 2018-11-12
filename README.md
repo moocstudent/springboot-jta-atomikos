@@ -6,11 +6,11 @@
 
 > **JDK:** 1.8 + 
 
-**Spring Boot:**  2.0.6 
+> **Spring Boot:**  2.0.6 
 
-**MySQL:** 5.7.21 
+> **MySQL:** 5.7.21 
 
-**IDEA:** InteIIij IDEA 
+> **IDEA:** InteIIij IDEA 
 
 ## 组织架构
 ```
@@ -26,13 +26,13 @@ jta-atomikos
 +--+ dao    持久层模块
    +---+ mybatis           mybatis-generator 自定义工具     
    +---+ one               db_one 数据源 
-   |   +---+ entity        实体
-   |   +---+ mapper        mapper 文件
-   |   +---+ repository    dao 
+   |   +---+ entity        
+   |   +---+ mapper        
+   |   +---+ repository     
    +---+ two               db_two 数据源
-       +---+ entity        实体
-       +---+ mapper        mapper 文件
-       +---+ repository    dao
+       +---+ entity        
+       +---+ mapper        
+       +---+ repository    
 
 ```
 
