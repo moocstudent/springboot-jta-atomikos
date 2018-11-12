@@ -13,7 +13,43 @@
 **IDEA:** InteIIij IDEA
 
 ## 组织架构
+```
+jta-atomikos
++
++--+ api
+|  |
+|  +---+ aop
+|  |
+|  +---+ config
+|  |
+|  +---+ controller
+|  |
+|  +---+ service
+|  |
+|  +---+ util
+|
+|
++--+ dao
+   |
+   +---+ mybatis
+   |
+   +---+ one
+   |   |
+   |   +---+ entity
+   |   |
+   |   +---+ mapper
+   |   |
+   |   +---+ repository
+   |
+   +---+ two
+       |
+       +---+ entity
+       |
+       +---+ mapper
+       |
+       +---+ repository
 
+```
 
 
 
