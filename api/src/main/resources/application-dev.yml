@@ -1,0 +1,37 @@
+# 项目服务器配置
+spring:
+
+    redis:
+        host: 127.0.0.1
+        password: 123456
+        jedis:
+          pool:
+            min-idle: 0
+            max-idle: 20
+            max-active: 100
+    jta:
+      enabled: true
+      atomikos:
+        datasource:
+          jta-one:
+            xa-properties.url: jdbc:mysql://localhost:3306/db_one?useUnicode=true&characterEncoding=utf-8
+            xa-properties.user: root
+            xa-properties.password: 123456
+            xa-data-source-class-name: com.mysql.jdbc.jdbc2.optional.MysqlXADataSource
+            unique-resource-name: jta-one           # 此处注意修改
+            max-pool-size: 25
+            min-pool-size: 3
+            max-lifetime: 20000
+            borrow-connection-timeout: 10000
+          jta-two:
+            xa-properties.url: jdbc:mysql://localhost:3306/db_two?useUnicode=true&characterEncoding=utf-8
+            xa-properties.user: root
+            xa-properties.password: 123456
+            xa-data-source-class-name: com.mysql.jdbc.jdbc2.optional.MysqlXADataSource
+            unique-resource-name: jta-two           # 此处注意修改
+            max-pool-size: 25
+            min-pool-size: 3
+            max-lifetime: 20000
+            borrow-connection-timeout: 10000
+
+

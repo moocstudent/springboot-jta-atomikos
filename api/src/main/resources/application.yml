@@ -1,0 +1,23 @@
+  spring:
+    application:
+        name: api
+
+    profiles:
+        active: dev
+
+
+  server:
+      port: 8080
+
+  logging:
+      config: classpath:log/logback-spring.xml
+
+
+
+
+
+
+
+
+
+
