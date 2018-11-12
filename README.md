@@ -5,11 +5,8 @@
 ## 项目环境
 
 > **JDK:** 1.8 + 
-
 > **Spring Boot:**  2.0.6 
-
 > **MySQL:** 5.7.21 
-
 > **IDEA:** InteIIij IDEA 
 
 ## 组织架构
