@@ -10,6 +10,8 @@
 
 **MySQL:** 5.7.21
 
+**IDEA:** InteIIij IDEA
+
 ## 项目开始 
 
 
