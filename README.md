@@ -14,43 +14,6 @@
 
 ## 组织架构
 
-├─api
-│  ├─src
-│  │  └─main
-│  │      ├─java
-│  │      │  └─com
-│  │      │      └─dxs
-│  │      │          └─api
-│  │      │              ├─aop
-│  │      │              ├─config
-│  │      │              ├─controller
-│  │      │              ├─service
-│  │      │              │  └─impl
-│  │      │              └─util
-│  │      └─resources
-│  │          └─log
-│
-├─dao
-│  ├─.mvn
-│  │  └─wrapper
-│  ├─src
-│  │  └─main
-│  │      ├─java
-│  │      │  └─com
-│  │      │      └─dxs
-│  │      │          └─dao
-│  │      │              ├─mybatis
-│  │      │              ├─one
-│  │      │              │  ├─entity
-│  │      │              │  ├─mapper
-│  │      │              │  └─repository
-│  │      │              └─two
-│  │      │                  ├─entity
-│  │      │                  ├─mapper
-│  │      │                  └─repository
-│  │      └─resources
-│  │          └─mybatis
-│  
 
 
 
