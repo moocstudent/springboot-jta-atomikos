@@ -17,36 +17,21 @@
 jta-atomikos
 +
 +--+ api
-|  |
 |  +---+ aop
-|  |
 |  +---+ config
-|  |
 |  +---+ controller
-|  |
 |  +---+ service
-|  |
 |  +---+ util
 |
-|
 +--+ dao
-   |
    +---+ mybatis
-   |
    +---+ one
-   |   |
    |   +---+ entity
-   |   |
    |   +---+ mapper
-   |   |
    |   +---+ repository
-   |
    +---+ two
-       |
        +---+ entity
-       |
        +---+ mapper
-       |
        +---+ repository
 
 ```
