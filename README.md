@@ -10,7 +10,7 @@
 
 **MySQL:** 5.7.21
 
-**开发工具:** InteIIij IDEA
+**IDEA:** InteIIij IDEA
 
 ## 项目开始 
 
